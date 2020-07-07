@@ -1,8 +1,6 @@
 # DiaFlow
 
-![Diablo II Bot](http://i.imgur.com/7YTMFQp.png)](https://www.youtube.com/watch?v=L4KQGYtyBao "Diablo II Bot - Click to Watch!")
-
-Diablo 2 bot test
+[![Diablo 2 Bot](https://img.youtube.com/vi/L4KQGYtyBao/0.jpg)](https://www.youtube.com/watch?v=L4KQGYtyBao)
 
 
 Diablo II Median XL bot work in progess i upload here to keep track/organize my files
