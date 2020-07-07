@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=L4KQGYtyBao
  
  Old GUI/script verion in picture:
  
- [![IMAGE ALT TEXT HERE](https://github.com/floowsnaake/DiaFlow/blob/master/update1.png)]
+ [![IMAGE ALT TEXT HERE](https://github.com/floowsnaake/DiaFlow/blob/master/Screenshots/gui.png)]
 
 
 Diablo II Median XL bot work in progess i upload here to keep track/organize my files
