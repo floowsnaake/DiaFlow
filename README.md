@@ -1,6 +1,6 @@
 # DiaFlow
 
-https://www.youtube.com/watch?v=L4KQGYtyBao
+![Diablo II Bot](http://i.imgur.com/7YTMFQp.png)](https://www.youtube.com/watch?v=L4KQGYtyBao "Diablo II Bot - Click to Watch!")
 
 Diablo 2 bot test
 
