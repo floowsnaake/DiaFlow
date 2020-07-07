@@ -3,6 +3,13 @@ no Memory injection or editing of the game uses pixel and image manipulation, bo
 
 Can work on normal diablo 2 if heavily edited
 
+Quick and dirty how to use:
+1. Edit Diaflow.ini to make sure that the username and password is correct and also that the game.exe/diablo 2 path is correct.
+2. Edit the Diaflow4.ahk to include the script you want to run/use.
+3. Download https://www.autohotkey.com/ and install it then double click the file 'Diaflow4.ahk'
+4. press Run.
+5. Press CTRL + ESC to exit the bot or close the window.
+
 Github Views:
 [![HitCount](http://hits.dwyl.com/FloowSnaake/floowsnaake/DiaFlow.svg)](http://hits.dwyl.com/FloowSnaake/floowsnaake/DiaFlow)
 
