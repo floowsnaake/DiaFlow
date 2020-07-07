@@ -1,0 +1,14 @@
+[02:47:08]   Next Game Shank-3*7B4A   
+[02:47:10]   Creating Shank-3*7B4A   
+[02:47:19]   Joining...   
+[02:47:27]   Successfully Joined   
+[02:47:30]   Summon Blood Skeleton x 4   
+[02:47:32]   Summon Night Hawks x 6   
+[02:47:36]   Summon Abyss Knight x 2   
+[02:47:39]   Taking waypoint   
+[02:47:44]   Frigid Highlands   
+[02:48:08]   Summon Night Hawks x 6   
+[02:48:14]   Shank died   
+[02:48:21]   Found    flawless1
+[02:48:23]   Found    flawless1
+[02:48:27]   Leaving Game   

@@ -1,0 +1,12 @@
+[02:45:47]   Next Game Shank-2*7B4A   
+[02:45:49]   Creating Shank-2*7B4A   
+[02:45:58]   Joining...   
+[02:46:06]   Successfully Joined   
+[02:46:08]   Summon Blood Skeleton x 4   
+[02:46:10]   Summon Night Hawks x 6   
+[02:46:14]   Summon Abyss Knight x 2   
+[02:46:17]   Taking waypoint   
+[02:46:23]   Frigid Highlands   
+[02:46:46]   Summon Night Hawks x 6   
+[02:46:55]   Shank died   
+[02:47:02]   Leaving Game   

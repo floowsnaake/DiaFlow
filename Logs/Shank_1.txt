@@ -1,0 +1,14 @@
+[02:44:06]   Starting game.exe   
+[02:44:16]   Logging in...   
+[02:44:23]   In Lobby   
+[02:44:25]   Creating Shank-1*7B4A   
+[02:44:34]   Joining...   
+[02:44:42]   Successfully Joined   
+[02:44:44]   Summon Blood Skeleton x 4   
+[02:44:47]   Summon Night Hawks x 6   
+[02:44:50]   Summon Abyss Knight x 2   
+[02:44:54]   Taking waypoint   
+[02:44:59]   Frigid Highlands   
+[02:45:17]   Summon Night Hawks x 6   
+[02:45:34]   Shank died   
+[02:45:41]   Leaving Game   
