@@ -20,7 +20,7 @@ Update_log("Frigid Highlands","")
 Send, {%teleporthotkey%}
 
 Teleport(450, 39)
-Update_log("Frigid Highlands","")
+Update_log("Teleport Eldritch","")
 Teleport(450, 39)
 Teleport(490, 83)
 Skill("F2",6,1)
