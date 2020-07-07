@@ -1,7 +1,11 @@
 # DiaFlow
 
-[![Diablo 2 Bot](https://img.youtube.com/vi/L4KQGYtyBao/0.jpg)](https://www.youtube.com/watch?v=L4KQGYtyBao)
-
+Youtube link:
+https://www.youtube.com/watch?v=L4KQGYtyBao
+ 
+ 
+ Old GUI/script verion in picture:
+https://github.com/floowsnaake/DiaFlow/blob/master/to_much_stuff.png
 
 Diablo II Median XL bot work in progess i upload here to keep track/organize my files
 
