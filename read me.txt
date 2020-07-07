@@ -1,0 +1,18 @@
+[Account]
+username= Account name
+password= Account pasword
+[Game]
+Game_name= Game/room name
+Game_password= Game/room password
+[Misc] 
+Save_log= save bot info/Diaflow run logs to a file after each run  [1 On/0 Off]
+Auto_clear= auto clers the listview/status window after each run   [1 On/0 Off]
+TP_exit= makes a teleport before leaving the game         [1 On/0 Off]
+Announce_game= says a chat message in game before leaving the room/ame [1 On/0 Off]
+Announce_text= what to say in the chat when leaving the room/game
+New_Game_instance= This makes it so it starts a new diablo exe when starting diaflow [1 On/0 Off]
+
+Game_path= This is the game.exe in the diablo ii folder path example: "D:\Program Files (x86)\Diablo II\Diablo II.exe"
+
+[Hotkeys]
+Loot_key= this is the see/view loot key on the ground key/what key you use to see loot,usually ALT key
