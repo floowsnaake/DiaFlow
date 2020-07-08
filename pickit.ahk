@@ -1,20 +1,26 @@
 
+MsgBox run Diaflow4 this is only a functions script!
+
 pick_item(){
+Send,{%loothotkey% down}
+Sleep,400
 
 Search_for_loot("perfect1")
 Search_for_loot("perfect2")
 Search_for_loot("uniqe_item1")
 Search_for_loot("uniqe_item2")
-;Search_for_loot("fusion_mark1")
-;Search_for_loot("fusion_mark2")
+Search_for_loot("fusion_mark1")
+Search_for_loot("fusion_mark2")
 Search_for_loot("rune")
+Search_for_loot("jewel1")
+Search_for_loot("jewel2")
 Search_for_loot("flawless1")
 Search_for_loot("flawless2")
 
 Sleep,300
 send, {%loothotkey% up}
 send, {%loothotkey% down}
-send, {%loothotkey% 3}
+send, {%loothotkey%  3}
 }
 return
 
@@ -45,16 +51,16 @@ IF (image = "perfect1" OR "perfect2")
 {
 pick_up_name = Perfect Gem
 }
-
-
-
-Send,{%loothotkey% down}
-Sleep,400
+IF (image = "jewel1" OR "jewel2")
+{
+pick_up_name = jewel
+}
 
 loop,2
 {
 
-ImageSearch, FoundX, FoundY, 29, 107, 1008, 636, *10 C:\Users\snowflake\Desktop\Authotkey bot\loot\%image%.png
+
+ImageSearch, FoundX, FoundY, 5, 78, 1012, 629, *54 %A_ScriptDir%/loot/%image%.png
 If ErrorLevel = 0
 {
 FoundX += 10
@@ -62,30 +68,48 @@ Foundy += 10
 MouseMove, %FoundX%, %FoundY%
 Sleep,200
 
-ImageSearch, FoundX, FoundY, 29, 107, 1008, 636, C:\Users\snowflake\Desktop\Authotkey bot\loot\item_hover.png
+ImageSearch, FoundX, FoundY, 29, 107, 1008, 636, %A_ScriptDir%/loot/item_hover.png
 If ErrorLevel = 0
 {
 
-Found++
 
-	Update_log("Found ",image)
+ImageSearch, FoundX, FoundY, 29, 107, 1008, 636,%A_ScriptDir%/loot/item_hover_wrong.png
+If ErrorLevel = 0
+{
+	
+IF (image = "jewel1" OR "jewel2")
+{
+	; ToolTip %pick_up_name% %image%
+goto,Skip_pickup
+return
+}
+
+}
+
+
+Found++
+    Update_log("Found ",pick_up_name)
 	GuiControl,,Gui_loot,%Found%
 	click
 	Sleep,100
 	MouseMove,%Foundx%,%Foundy%+30
 	Sleep,1600
+	Skip_pickup:
+
+
+}
 	
 	
 	
 }
-
-}
-}
-send, {%loothotkey%}
-
 }
 
+
+
+
+
+
+}
 return
 
-
-#Include Diaflow4.ahk
+#Include, Diaflow4.ahk
