@@ -38,7 +38,8 @@ Global loothotkey
 Global teleporthotkey
 Global Clear_view
 Global portalhotkey
-
+Global current_script
+Global move_gui
 
 runs = 1
 
@@ -54,6 +55,7 @@ IniRead, acc_password, Diaflow.ini, Account,password
 ;             game
 IniRead, Game_name_output, Diaflow.ini, Game,Game_name
 IniRead, Game_password_output, Diaflow.ini, Game,Game_password
+IniRead, current_script, Diaflow.ini, Game,Script
 
 ;             Misc
 IniRead, logg_it, Diaflow.ini, Misc,save_log
@@ -63,7 +65,7 @@ IniRead, Say_next_game, Diaflow.ini, Misc,Announce_game
 IniRead, say_text, Diaflow.ini, Misc,Announce_text
 IniRead, game_dir, Diaflow.ini, Misc,Game_path
 IniRead, New_diablo, Diaflow.ini, Misc,New_Game_instance
-
+IniRead, move_gui, Diaflow.ini, Misc,Move_window
 
 ;                        Hotkeys
 IniRead, loothotkey, Diaflow.ini, Hotkeys,Loot_key
@@ -104,6 +106,9 @@ Gui, Add, text,x280 y368 cblue vGui_game_name w100,
  LV_ModifyCol(2,210)
  LV_ModifyCol(3,80)
  
+ Gui, Add, link,x3 y451,<a href="https://github.com/floowsnaake/DiaFlow">Github Link</a>
+ 
+  Gui, Add, link,x64 y451,<a href="https://www.youtube.com/user/FloowSnaake/videos">Youtube Link</a>
  
 Gui, Show, w373 h510, Diaflow v4 Floowsnaake
 return
@@ -122,7 +127,13 @@ return
 
 start:
 gui,submit
-Gui, Show,x1479 y121 w363 h510, Diaflow v4 Floowsnaake
+Gui, Show,w373 h510, [RUNNING] Diaflow v4 Floowsnaake 
+
+IF (move_gui = 1)
+{
+WinMove,[RUNNING] Diaflow v4 Floowsnaake ,,1479,121 
+}
+
 
 IF (New_diablo = 1)
 {
