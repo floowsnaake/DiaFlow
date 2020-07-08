@@ -25,8 +25,10 @@ Teleport(450, 39)
 Teleport(490, 83)
 Skill("F2",6,1)
 Skill("F1",4,0)
-Sleep, 4000
+Send, {%teleporthotkey%}
+Sleep, 1000
 pick_item()
+Send, {%teleporthotkey%}
 Teleport(450, 39)
 Teleport(450, 39)
 Skill("F2",6,1)
