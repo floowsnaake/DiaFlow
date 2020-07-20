@@ -9,11 +9,11 @@ Search_for_loot("perfect1")
 Search_for_loot("perfect2")
 Search_for_loot("uniqe_item1")
 Search_for_loot("uniqe_item2")
-Search_for_loot("fusion_mark1")
-Search_for_loot("fusion_mark2")
+;~ Search_for_loot("fusion_mark1")
+;~ Search_for_loot("fusion_mark2")
 Search_for_loot("rune")
-Search_for_loot("jewel1")
-Search_for_loot("jewel2")
+;~ Search_for_loot("jewel1")
+;~ Search_for_loot("jewel2")
 Search_for_loot("flawless1")
 Search_for_loot("flawless2")
 
@@ -72,7 +72,7 @@ ImageSearch, FoundX, FoundY, 29, 107, 1008, 636, %A_ScriptDir%/loot/item_hover.p
 If ErrorLevel = 0
 {
 
-
+/*
 ImageSearch, FoundX, FoundY, 29, 107, 1008, 636,%A_ScriptDir%/loot/item_hover_wrong.png
 If ErrorLevel = 0
 {
@@ -85,7 +85,7 @@ return
 }
 
 }
-
+*/
 
 Found++
     Update_log("Found ",pick_up_name)

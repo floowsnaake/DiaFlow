@@ -1,7 +1,7 @@
-7/8 17:26:53.524  Connecting to Battle.net...
-7/8 17:26:53.539      querying gateway realm.median-xl.com
-7/8 17:26:53.649      searching for the fastest server
-7/8 17:26:53.711      Connected to server 185.170.114.73
-7/8 17:26:53.727      accessing accounts
-7/8 17:26:53.836      Checking for the latest version
-7/8 17:26:54.007      Connected to Battle.net
+7/20 12:11:25.675  Connecting to Battle.net...
+7/20 12:11:25.691      querying gateway realm.median-xl.com
+7/20 12:11:25.785      searching for the fastest server
+7/20 12:11:25.831      Connected to server 185.170.114.73
+7/20 12:11:25.847      accessing accounts
+7/20 12:11:25.972      Checking for the latest version
+7/20 12:11:26.128      Connected to Battle.net
