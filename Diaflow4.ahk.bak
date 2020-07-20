@@ -40,6 +40,7 @@ Global Clear_view
 Global portalhotkey
 Global current_script
 Global move_gui
+Global blink_check
 
 runs = 1
 
@@ -71,6 +72,10 @@ IniRead, move_gui, Diaflow.ini, Misc,Move_window
 IniRead, loothotkey, Diaflow.ini, Hotkeys,Loot_key
 IniRead, teleporthotkey, Diaflow.ini, Hotkeys,Teleport_key
 IniRead, portalhotkey, Diaflow.ini, Hotkeys,Portal_key
+
+;                      Debugging
+IniRead, blink_check, Diaflow.ini, Debugg,check_blink_in_join
+
 
 
 }
@@ -135,6 +140,19 @@ WinMove,[RUNNING] Diaflow v4 Floowsnaake ,,1479,121
 }
 
 
+IF (New_diablo = 0)
+{
+Process, Exist, game.exe
+If !ErrorLevel ; is not running
+{
+	MsgBox Diablo II is not running game.exe error
+ExitApp
+}
+  
+
+}
+
+
 IF (New_diablo = 1)
 {
 Start_login()
@@ -178,6 +196,16 @@ break
 }
 ;check if ingame:
 
+IF (blink_check = 0)
+{
+ToolTip,Waiting until in game 5 sec,0,0
+Sleep,5000
+Update_log("Successfully Joined","")
+}
+
+
+IF (blink_check = 1)
+{
 Loop
 {
 ImageSearch, FoundX, FoundY, 777, 719, 862, 792, *11 %A_ScriptDir%\images\teleport.png ; if in game
@@ -189,6 +217,7 @@ break
 }
 
 
+}
 }
 
 ;=======================================
