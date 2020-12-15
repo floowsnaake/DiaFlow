@@ -1,3 +1,12 @@
+Go to 
+
+https://github.com/floowsnaake/DiaFlow/tree/master/Super%20Alpha%20Scripts
+
+
+^ the link above is a stand alone from the main Diaflow bot! it will be integrated into the main bot soon but its still workin preogrress!
+this is the folder i currently use as a drop of for my scripts shown on youtube
+
+
 # DiaFlow a Diablo 2 Median XL bot
 no Memory injection or editing of the game uses pixel and image manipulation, bot written in Autohtokey
 
